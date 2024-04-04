@@ -22,7 +22,7 @@ def get_gemini_response(input,image):
 ## initializing the streamlit app
 st.set_page_config(page_title=" Fruits and Vegetables",page_icon='icon.png')
 
-st.header("ruits and Vegetables")
+st.header("Fruits and Vegetables")
 
 input=st.text_input("input prompt: ",key="input")
 inp2 = "name only those fruits and vegetables in this image"
